@@ -1,0 +1,451 @@
+/* Font */
+@font-face {
+    font-family: monsterat;
+    src: url(./../font/Montserrat.ttf);
+  }
+  @font-face {
+    font-family: monsterat-medium;
+    src: url(./../font/Montserrat-Medium.ttf);
+  }
+
+  /* Font-size */
+
+.fontSize-14{
+    font-size: 14px;
+}
+.fontSize-15{
+    font-size: 15px;
+}
+.fontSize-20{
+    font-size: 20px;
+}
+.fontSize-38{
+    font-size: 38px;
+}
+.fontSize-46{
+    font-size: 57px;
+}
+/* Test Spascing */
+.textSpacing-1{
+    letter-spacing: -17px;
+}
+.textSpacing-2{
+    letter-spacing: -4px;
+}
+.textSpacing-3 {
+    letter-spacing: 1px;
+}
+.fontSize{
+    font-size: 16px;
+}
+/* Shadow */
+.shadow{
+    box-shadow: 5px 5px 10px 5px #888888;
+}
+
+/* Background */
+.blueBackground {
+    background: url(./../img/Find-your-new-modern.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-position: right 0;
+}
+.header-info-content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* Zoom Image For Media */
+.zoom-2{
+    zoom: 0;
+}
+/* Navbar */
+.navbarPosition{
+    margin-left: 0;
+}
+.joinUsPosition{
+    padding-left: 51px;
+}
+.positionSearchBlock{
+    padding-top: 130px;
+}
+.searchAwesome {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 3.375rem;
+    height: 13px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.radiusButtonYellow{
+    border-radius: 0px 2px 2px 0px!important;
+}
+.buttonYellowSize{
+    padding-top: 23px!important;
+    padding-bottom: 23px!important;
+    padding-left: 31px!important;
+    padding-right: 31px!important;
+}
+.formProperty{
+    flex-wrap: inherit!important;
+}
+.fontSize-30{
+    font-size: 20px;
+}
+.radiusSearchInput{
+    border: 1px solid white!important;
+    border-radius: 2px 0px 0px 2px!important;
+}
+.searchInput {
+    padding-right: 135px!important;
+    padding-top: 23px!important;
+    padding-bottom: 23px!important;
+}
+.scrollDown{
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+}
+.fontMonsterat{
+   font-family: monsterat; 
+}
+.fontMonsteratMedium{
+    font-family: monsterat-medium;
+}
+.telPosition {
+    position: absolute;
+    top: 497px;
+    left: -581px;
+}
+.mapPosition {
+    position: absolute;
+    top: 497px;
+    left: -605px;
+}
+.scrollDownPosition{
+    padding-bottom: 59px;
+}
+.scrollDownPosition a:hover{
+    text-decoration: none;
+}
+.yellowBlock {
+    width: 294px;
+    height: 81px;
+    text-align: center;
+    line-height: 81px;
+}
+.infoIcon{
+    font-size: 30px;
+    color: white;
+}
+.sizeBlock-1{
+    width: 646px;
+}
+.sizeBlock-2{
+    width: 646px;
+}
+.quadrangle{
+    width: 200px;
+    height: 200px;
+    background-color: #f6f5f4;
+    margin-bottom: 35px;  
+}
+.grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    }
+.verticalCenter{
+    text-align: center;
+    padding-top: 52px;
+}
+.positionOursCompany{
+    padding-top: 144px;
+}
+.backgroundColorGray {
+    background-color: #f6f5f4;
+    padding-bottom: 43px;
+}
+.blockMoreThen{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 37px;
+}
+.blueBlock{   
+    height: 380px;
+    background-color: #b1d7e8;
+}
+.whiteBlock{
+    height: 120px;
+    background-color: white;
+}
+.rent-dollar{
+    font-size: 20px;
+}
+.buttonViewAllSize{
+    padding-top: 23px!important;
+    padding-bottom: 23px!important;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+}
+.numbersBlock{
+    position: relative;
+    height: 374px;
+    overflow: hidden;
+    width: 346px;
+}
+.number {
+    position: absolute;
+    top: -147px;
+    left: -48px;
+    font-size: 228px;
+}
+.textNumbers {
+    position: relative;
+    top: 164px;
+    right: -46px;
+}
+.underBorderWhite{
+    border-bottom: 2px solid white;
+}
+.underBorder{
+    border-bottom: 2px solid black;
+}
+.blueImage{
+    padding-left: 277px;
+}
+.positionColRenting{
+    padding-left: 0;
+}
+.textBlockSize {
+    padding-right: 297px;
+}
+.blockMeetOurAgents{
+    width: 350px;
+    height: 480px;
+    margin-bottom: 37px;
+}
+.grayBlock{   
+    height: 380px;
+    background-color: #cdccce;
+}
+.whiteBlockSmall{
+    height: 100px;
+    background-color: white;
+}
+.melboumeBlue{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 165px;
+    padding-bottom: 165px;
+    background-color: #8da4be;
+}
+.yellowBlockSuperAwesome{
+    width: 335px;
+    height: 81px;
+    text-align: center;
+    line-height: 81px;
+    position: absolute;
+    left: 119px;
+    bottom: -35px;
+}
+.yellowBlockSuperAwesomeTwo{
+    width: 335px;
+    height: 81px;
+    text-align: center;
+    line-height: 81px;
+    position: absolute;
+    left: 261px;
+    bottom: -35px;
+}
+.melboumeYellow{
+    position: absolute;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    bottom: -32px;
+    right: 93px;
+}
+.positionColSuperAwesome{
+    padding-left: 30px;
+}
+.positionBlockSuperAwesome{
+    padding-top: 90px;
+}
+.showMeMoreButton {
+    padding-left: 62px!important;
+    padding-right: 62px!important;
+    padding-bottom: 27px!important;
+    padding-top: 27px!important;
+    background-color: #1f373d!important;
+    border-radius: 0!important;
+}
+.backgroundFooter{
+    background-color: #1f373d;
+}
+.subscribeButton{
+    width: 477px;
+    padding-bottom: 20px!important;
+    padding-top: 20px!important;
+    background-color: #1f373d!important;
+    border-radius: 0!important;
+}
+.borderInline{
+    border-bottom: 2px solid #8290a2;
+
+}
+.textColorBlue{
+    color: #8290a2;
+}
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+.positionLuxtate{
+    padding-top: 75px;
+}
+.superAwesomePaddingRight{
+    padding-right: 92px;
+}
+.superAwesomePaddingLeft{
+    padding-left: 81px;
+}
+
+/* Media */
+@media (max-width: 1670px) { 
+    .blueImage {
+        padding-left: 57px;
+    }
+    .positionColRenting {
+        padding-left: 137px;
+    }
+    .textBlockSize {
+        padding-right: 69px;
+    }
+ }
+ @media (max-width: 1240px) { 
+    .yellowBlockSuperAwesomeTwo {
+        width: 335px;
+        height: 81px;
+        text-align: center;
+        line-height: 81px;
+        position: absolute;
+        left: 115px;
+        bottom: -35px;
+    }
+ }
+@media (max-width: 1200px) { 
+    .blueImage {
+        padding-left: 0;
+    }
+    .textBlockSize {
+        padding-right: 0;
+    }
+    .positionColRenting {
+        padding-left:0;
+    }
+    .sizeBlock-1 {
+        width: 100%;
+    }
+    .sizeBlock-2 {
+        width: 100%;
+    }      
+    .positionOursCompany {
+        padding-top: 20px;
+    }  
+    .joinUsPosition {
+        padding-left: 47px;
+    } 
+    .yellowBlockSuperAwesome {
+        width: 335px;
+        height: 81px;
+        text-align: center;
+        line-height: 81px;
+        position: absolute;
+        left: 109px;
+        bottom: -35px;
+    }
+    .grid-1200{
+        display: grid;
+        justify-content: center;
+    } 
+    .quadrangle {
+        width: 658px;
+        height: 291px;
+        background-color: #f6f5f4;
+        margin-bottom: 35px;
+    }
+    .verticalCenter {
+        text-align: center;
+        padding-top: 101px;
+    }
+    .superAwesomePaddingRight{
+        padding-right: 0;
+    }
+    .superAwesomePaddingLeft{
+        padding-left: 0;
+    }    
+ }
+ @media (min-width: 1200px) { 
+    .positionColRenting{
+        padding-left: 113px;
+    }
+    .navbarPosition {
+        margin-left: 97px;
+    }   
+ }
+
+ @media (max-width: 992px) { 
+    .melboumeYellow {
+        position: absolute;
+        padding-left: 16px;
+        padding-right: 60px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        bottom: -32px;
+        right:16px;
+    }   
+    .joinUsPosition {
+        padding-left: 0;
+    } 
+    .fontSize{
+        font-size: 25px!important;
+    } 
+    .scrollDownPosition {
+        padding-bottom: 15px;
+    }
+    .blockMoreThen {
+        width: 681px;
+        height: 500px;
+        margin-bottom: 37px;
+    }
+    .zoom-2{
+        zoom: 2;
+    }
+    .blockMeetOurAgents {
+        width: 610px;
+        height: 480px;
+        margin-bottom: 37px;
+    }
+    .numbersBlock {
+        position: relative;
+        height: 555px;
+        width: 625px;
+        overflow: hidden;
+    }
+    .textNumbers {
+        position: relative;
+        top: 222px;
+        right: -109px;
+    }
+    .fontSize-30{
+        font-size: 30px;
+    }
+ }
